@@ -32,10 +32,10 @@ dependencies {
 group = "org.acme"
 version = "1.0.0-SNAPSHOT"
 
-//java {
-//    sourceCompatibility = JavaVersion.VERSION_25
-//    targetCompatibility = JavaVersion.VERSION_25
-//}
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
 
 allOpen {
     annotation("jakarta.ws.rs.Path")
@@ -45,7 +45,7 @@ allOpen {
 }
 
 kotlin {
-    jvmToolchain(25)
+    jvmToolchain(21)
     compilerOptions {
         javaParameters = true
     }
