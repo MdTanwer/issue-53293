@@ -18,7 +18,7 @@ dependencies {
     annotationProcessor(enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}"))
     implementation("io.quarkus:quarkus-rest")
     implementation("io.quarkus:quarkus-rest-jackson")
-    implementation("io.quarkus:quarkus-hibernate-panache-next")
+    implementation("io.quarkus:quarkus-data-hibernate")
     implementation("io.quarkus:quarkus-kotlin")
     implementation("io.quarkus:quarkus-jdbc-postgresql")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
